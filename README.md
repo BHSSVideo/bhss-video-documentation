@@ -6,7 +6,10 @@ This will be structured in the following way:
 - Software Documentation
 - Event Specific Documentation
 # Editing documentation
+0. learn markdown
+    - add how to markdown link
 1. create github codespace
+    - ADD IMAGE HERE
 2. edit README.md or add files
 3. in the terminal run `git add .`
 3. then run `git commit` and describe the changes you made
