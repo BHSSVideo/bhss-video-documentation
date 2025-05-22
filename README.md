@@ -7,12 +7,14 @@ This will be structured in the following way:
 - Event Specific Documentation
 # Editing documentation
 0. learn markdown
-    - add how to markdown link
+    - add "how to markdown" link
 1. create github codespace
-    - ADD IMAGE HERE
+    - add image
 2. edit README.md or add files
-3. in the terminal run `git add .`
-3. then run `git commit` and describe the changes you made
+3. in the terminal run `git add .` then `git commit`
+3. describe the changes you made
+5. click check mark
+    - add image
 4. finally run `git push` to sync your changes with the main documentation branch
 
 # Overall Workflow
