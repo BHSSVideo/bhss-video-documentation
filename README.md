@@ -1,14 +1,15 @@
 ## Welcome to the (in)complete collection of resources and documentation for livestreaming sports and other events at Bloomington High School South (BHSS)
 # Table of Contents
-- [Editing Documentation](#editing-documentation)
+- [Editing Documentation Tutorial](#editing-documentation-tutorial)
 - [Overall Workflow](#overall-workflow)
 - [Hardware Documentation](#hardware-documentation)
 - [Software Documentation](#software-documentation)
 - [Event-Specific Documentation](#event-specific-documentation)
 
-# How to edit documentation
-Further information on making changes on [contributing.md](contributing.md)
-If you know how to use github you can ignore this.
+# Editing Documentation Tutorial
+To learn to commit changes, please read [contributing.md](contributing.md) 
+
+If you already know how to use github, you can skip this.
         
 # Overall Workflow
 BHSS Video primarily utilizes networked cameras for nearly all its productions. This networking capability enables cameras to be placed anywhere an Ethernet connection is available. Consequently, setting up and tearing down productions is a quick, simple process. Networked cameras also allow quick switching between preset angles.
