@@ -15,9 +15,7 @@ This will be structured in the following way:
 1. create github codespace
     - if one is already open, ignore it or consult with your team before removing it
     - otherwise, create a new codespace by:
-
         ![image displaying the steps listed below](<open codespace.png>)
-
     1. clicking the green "Code" button
     2. clicking the "Codespaces" tab within the "Code" dialog
     3. clicking the plus button under codespaces tab
