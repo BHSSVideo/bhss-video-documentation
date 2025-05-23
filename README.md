@@ -1,11 +1,11 @@
-## Welcome to the incomplete collection of resources for livestreaming videos at BHSS
+## Welcome to the (in)complete collection of resources and documentation for livestreaming sports and other events at BHSS
 ### Structure
 This will be structured in the following way:
+<!-- this needs clarified, i have no idea what this means or how to structure the documentation given these bullet points -->
 - Overall Workflow
 - Hardware Documentation
 - Software Documentation
 - Event Specific Documentation
-<!-- this needs clarified, i have no idea what this means or how to structure the documentation given these bullet points -->
 # Editing documentation
 0. learn markdown
     - [Interactive Markdown Tutorial](https://www.markdowntutorial.com/)
@@ -13,10 +13,16 @@ This will be structured in the following way:
     - [GFM Cheat Sheet](https://gist.github.com/Myndex/5140d6fe98519bb15c503c490e713233)
     - [Standard Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 1. create github codespace
-    - add image
-2. edit README.md or add files
-3. in the terminal run `git add .` then `git commit`
-3. describe the changes you made
+    - if one is already open, ignore it or consult with your team before removing it
+
+    ![](<Untitled presentation.png>)
+    
+    1. click green "Code" button
+    2. click "Codespaces" tab within the "Code" dialog
+    3. click plus button under codespaces tab
+2. click to edit markdown (.md) files for the pages you would like to alter
+3. to save your changes, run `git add .` then `git commit` in the terminal
+3. under the newly created "COMMIT_EDITMSG" tab, describe the changes you made
 5. click check mark
     - add image
 4. finally run `git push` to sync your changes with the main documentation branch
