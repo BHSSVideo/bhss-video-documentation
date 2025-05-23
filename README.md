@@ -15,7 +15,7 @@ This will be structured in the following way:
 1. create github codespace
     - if one is already open, ignore it or consult with your team before removing it
 
-    ![](<open codespace.png>)
+    ![image displaying the steps listed below](<open codespace.png>)
     
     1. click green "Code" button
     2. click "Codespaces" tab within the "Code" dialog
@@ -23,9 +23,9 @@ This will be structured in the following way:
 2. click to edit markdown (.md) files for the pages you would like to alter
 3. to save your changes, run `git add .` then `git commit` in the terminal
 3. under the newly created "COMMIT_EDITMSG" tab, describe the changes you made
-5. click check mark
-    - add image
-4. finally run `git push` to sync your changes with the main documentation branch
+5. click checkmark to confirm changes and their description
+    ![image of the location of the checkmark](<commit checkmark.png>)
+4. run `git push` to sync your changes with the main documentation
 
 # Overall Workflow
 <!-- i despise some of the phrasing in this section, ill rewrite it soon enough-->
