@@ -23,11 +23,11 @@
 4. run `git push` to sync your changes with the main documentation
 5. delete your codespace when you are finished editing
 
-![image displaying the steps listed below](<delete codespace.png>)
-<!-- another horrible spacing image rendering thing ughhhhh i hate this -->
+    ![image displaying the steps listed below](<delete codespace.png>)
+    <!-- another horrible spacing image rendering thing ughhhhh i hate this -->
     1. click the green "Code" button
     2. click the "Codespaces" tab within the "Code" dialog
     3. click the 3 horizontal dots next to your workspace
     4. click the "Delete" button to delete the workspace
     5. click "Delete" in the "Are you sure?" popup window to confirm the codespace deletion 
-        ![image of the location of the delete button](confirmation.png)
+    ![image of the location of the delete button](confirmation.png)
