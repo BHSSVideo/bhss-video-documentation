@@ -2,11 +2,12 @@
 ### Structure
 This will be structured in the following way:
 <!-- this needs clarified, i have no idea what this means or how to structure the documentation given these bullet points -->
-- Overall Workflow
+- [Editing Documentation](#editing-documentation)
+- [Overall Workflow](#overall-workflow)
 - Hardware Documentation
 - Software Documentation
 - Event Specific Documentation
-# Editing documentation
+# Editing Documentation
 0. learn markdown
     - [Interactive Markdown Tutorial](https://www.markdowntutorial.com/)
     - [Github Flavored Markdown (GFM) Documentation](https://github.github.com/gfm/)
@@ -15,8 +16,9 @@ This will be structured in the following way:
 1. create github codespace
     - if one is already open, ignore it or consult with your team before removing it
     - otherwise, create a new codespace by:
-    
+
         ![image displaying the steps listed below](<open codespace.png>)
+    <!-- no, i dont in fact like that i have to space the image this way but it doesnt render correctly if i dont -->
     1. clicking the green "Code" button
     2. clicking the "Codespaces" tab within the "Code" dialog
     3. clicking the plus button under codespaces tab
@@ -30,7 +32,6 @@ This will be structured in the following way:
 4. run `git push` to sync your changes with the main documentation
 
 # Overall Workflow
-<!-- i despise some of the phrasing in this section, ill rewrite it soon enough-->
-BHSS video creates almost every production through the use of networked cameras. By using networked cameras as opposed to traditional options we are able to place cameras anywhere there is an ethernet connection. This allows for easy setup and teardown of productions, as well as the ability to quickly switch between different angles and perspectives, without the need for lengthy cable runs back to our streaming computer.
+BHSS Video primarily utilizes networked cameras for nearly all its productions. This networking capability enables cameras to be placed anywhere an Ethernet connection is available. Consequently, setting up and tearing down productions is a quick, simple process. Networked cameras also allow quick switching between preset angles.
 
-In almost all cases we use NDI to stream video and audio over the network as it allow for low latency and high quality streams and is also simple to set up and use.
+NDI serves as the main protocol we use for streaming audio and video over the network because it allows for high-quality, low-latency streams. Additionally, NDI has extensive online documentation and is relatively straightforward to configure and operate.
