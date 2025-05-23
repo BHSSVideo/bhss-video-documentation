@@ -29,7 +29,15 @@
     4. click the checkmark to confirm changes and their description
     ![image of the location of the checkmark](<commit checkmark.png>)
 4. run `git push` to sync your changes with the main documentation
-
+5. delete your codespace when you are finished editing
+![image displaying the steps listed below](<delete codespace.png>)
+    1. click the green "Code" button
+    2. click the "Codespaces" tab within the "Code" dialog
+    3. click the 3 horizontal dots next to your workspace
+    4. click the "Delete" button to delete the workspace
+    5. click "Delete" in the "Are you sure?" popup window to confirm the codespace deletion 
+        ![image of the location of the delete button](confirmation.png)
+        
 # Overall Workflow
 BHSS Video primarily utilizes networked cameras for nearly all its productions. This networking capability enables cameras to be placed anywhere an Ethernet connection is available. Consequently, setting up and tearing down productions is a quick, simple process. Networked cameras also allow quick switching between preset angles.
 
