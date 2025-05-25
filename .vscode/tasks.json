@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Auto Git Pull on Open",
+            "type": "shell",
+            "command": "git pull",
+            "problemMatcher": [],
+            "runOptions": {
+                "runOn": "folderOpen" // This makes it run when the folder is opened
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true // Optionally make it a default build task
+            },
+            "presentation": {
+                "reveal": "silent", // Don't show the terminal panel
+                "showReuseMessage": false,
+                "clear": false
+            }
+        }
+    ]
+}
