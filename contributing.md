@@ -1,4 +1,6 @@
 # Editing Documentation
+### If you already know how to use github in your IDE, you don't need to read this.
+
 0. learn markdown
     - [Interactive Markdown Tutorial](https://www.markdowntutorial.com/)
     - [Github Flavored Markdown (GFM) Documentation](https://github.github.com/gfm/)
