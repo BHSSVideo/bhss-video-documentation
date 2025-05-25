@@ -16,11 +16,13 @@ To learn how to edit this documentation, please read [contributing.md](contribut
 # Hardware Documentation
 ### [Ubiquiti Gigabeam Bridge](/hardware/ubiquiti%20gigabeam%20bridge/info.md)
 - short description of what they do
+
 ### [HDMI Network Encoder](/hardware/hdmi%20network%20encoder/info.md)
 - short descripion
 
-
 # Software Documentation
+### [Scorebug](/software/scorebug/info.md)
+- tony software (awesome and a little buggy)
 
 # Event-Specific Documentation
 
