@@ -21,7 +21,7 @@ To learn how to edit this documentation, please read [contributing.md](contribut
 - short descripion
 
 ### Streaming PC
-- Port F14 on the main switches in the server room
+- Port **F14** on the main switches in the server room
 
 # Software Documentation
 ### [Scorebug](/software/scorebug/info.md)
