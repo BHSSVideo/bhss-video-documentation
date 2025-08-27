@@ -30,6 +30,11 @@ To learn how to edit this documentation, please read [contributing.md](contribut
 # Event-Specific Documentation
 
 ## Sports
+- How to connect OBS to IHSAA Stream
+    1. Push Source
+    2. RTMP
+    3. Operations
+    4. View Broadcast
 #### [Baseball](/events/sports/baseball.md) 
 #### [Basketball](/events/sports/basketball.md)
 #### [Football](/events/sports/football.md)
