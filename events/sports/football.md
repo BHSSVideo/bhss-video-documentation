@@ -10,7 +10,7 @@
         - rubber pads??
 - Ladder
 ## In the Press Box
-### Announcer
+### Announcer Area
 - XLR Cable (M->F)
 - Laptop Charger
 - Announcer Laptop
@@ -19,5 +19,8 @@
 - Headphones (3.5mm)
 - 10' Ethernet Cable
 - USB-C Cable (C<->C)
-### Scorebug
-- 
+### Scoreboard Area
+- Scorebug Computer
+- Laptop Charger
+- Serial -> USB-A Cable
+- 10' Ethernet Cable
