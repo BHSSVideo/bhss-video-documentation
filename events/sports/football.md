@@ -11,14 +11,16 @@
 - Ladder
 ## In the Press Box
 ### Announcer Area
-- XLR Cable (M->F)
+- 2x XLR Cable (M->F)
+    - must be long enough to reach main mixer
 - Laptop Charger
 - Announcer Laptop
 - Audio Interface (Audient EVO 8)
 - Cardioid XLR Microphone
-- Headphones (3.5mm)
+- Headphones (connects via TRS)
 - 10' Ethernet Cable
 - USB-C Cable (C<->C)
+- 3.5mm to XLR cable
 ### Scoreboard Area
 - Scorebug Computer
 - Laptop Charger
