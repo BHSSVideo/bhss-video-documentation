@@ -13,7 +13,8 @@
 ### Announcer Area
 - 2x XLR Cable (M->F)
     - must be long enough to reach main mixer
-- Laptop Charger
+- Laptop Charger - barrel plug
+- ethernet adapter
 - Announcer Laptop
 - Audio Interface (Audient EVO 8)
 - Cardioid XLR Microphone
