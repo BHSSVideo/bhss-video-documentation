@@ -22,6 +22,7 @@
 - 10' Ethernet Cable
 - USB-C Cable (C<->C)
 - 3.5mm to XLR cable
+- DJI Microphones (charged)
 ### Scoreboard Area
 - Scorebug Computer
 - Laptop Charger
