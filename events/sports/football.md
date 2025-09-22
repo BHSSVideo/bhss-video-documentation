@@ -50,3 +50,4 @@ the formatting is as follows the sources should be in the same order as listed.
      - Latency Mode: Normal Safe
      - Filters to apply to the source:
          - (LVK) Video Stabilizer
+ - NDI Announcer Microphone
