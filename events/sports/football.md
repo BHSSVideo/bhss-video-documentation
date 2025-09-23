@@ -60,23 +60,23 @@ the formatting is as follows the sources should be in the same order as listed.
      - Latency Mode: Normal Safe
      - Filters to apply to the source:
          - Gain Filter
-            - Let the annoucner audio come into obs a little bit quiet and then increase the gain filter into the speaking peaks at about -2db, if the audio does clip it is only clipping in software and the other filter you are adding will fix this
-            - Noise Gate
-                - Close Threshold: -45db
-                - Open Threshold: -47db
-             - Noise Suppression (this is an alternative to noise gate I don't recomend using both, use whichever one sounds better
-                 - Method: RNoise or Nvidian Noise Removal (must install nvidia audio effects sdk first to use Nvidia Noise Removal)
-            - 3 Band Equalizer
-                - Fiddle with these settings until the audio sounds really good, use the best audio monitoring solution when tuning the EQ
-            - Compressor
-                - Ratio: 4:1
-                - Threshold: -17.5db
-                - Attack: 3ms
-                - Release: 200ms
-                - Output Gain: adjust so the talking volume is almost clipping.
-            - Clipper
-                - Threshold: -2.5db
-                - Release: 60ms
+        - Let the annoucner audio come into obs a little bit quiet and then increase the gain filter into the speaking peaks at about -2db, if the audio does clip it is only clipping in software and the other filter you are adding will fix this
+        - Noise Gate
+            - Close Threshold: -45db
+            - Open Threshold: -47db
+         - Noise Suppression (this is an alternative to noise gate I don't recomend using both, use whichever one sounds better
+             - Method: RNoise or Nvidian Noise Removal (must install nvidia audio effects sdk first to use Nvidia Noise Removal)
+        - 3 Band Equalizer
+            - Fiddle with these settings until the audio sounds really good, use the best audio monitoring solution when tuning the EQ
+        - Compressor
+            - Ratio: 4:1
+            - Threshold: -17.5db
+            - Attack: 3ms
+            - Release: 200ms
+            - Output Gain: adjust so the talking volume is almost clipping.
+        - Clipper
+            - Threshold: -2.5db
+            - Release: 60ms
 ### Camera 2 - Name of operator
  - NDI Camera 2
      - Source Name: Camera 2
