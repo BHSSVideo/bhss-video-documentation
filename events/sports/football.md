@@ -74,7 +74,7 @@ the formatting is as follows the sources should be in the same order as listed.
             - Attack: 3ms
             - Release: 200ms
             - Output Gain: adjust so the talking volume is almost clipping.
-        - Clipper
+        - Limiter
             - Threshold: -2.5db
             - Release: 60ms
 ### Camera 2 - Name of operator
@@ -112,7 +112,7 @@ the formatting is as follows the sources should be in the same order as listed.
             - Attack: 3ms
             - Release: 200ms
             - Output Gain: adjust so the talking volume is almost clipping.
-        - Clipper
+        - Limiter
             - Threshold: -2.5db
             - Release: 60ms
 <img width="784" height="342" alt="Screenshot 2025-09-23 at 09 47 54" src="https://github.com/user-attachments/assets/89a02ea6-a75b-48c2-97c2-e0e0cee17cc4" />
