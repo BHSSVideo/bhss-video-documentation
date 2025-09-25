@@ -220,3 +220,11 @@ the formatting is as follows the sources should be in the same order as listed.
             - Threshold: -2.5db
             - Release: 60ms
 ### Instant Replay
+ - Replay Banner (Media Source)
+     - Local File: Select the replay banner media
+     - Loop: Enabled
+     - Restart playback when source becomes active: Enabled
+     - Use hardwared decoding when available: Enabled
+     - Left Click Source in the preview window -> Transform -> Edit Transform
+         - Crop Top: 505px
+         - Crop Bottom: 505px
