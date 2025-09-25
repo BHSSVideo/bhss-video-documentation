@@ -50,6 +50,18 @@ the formatting is as follows the sources should be in the same order as listed.
      - Latency Mode: Normal Safe
      - Filters to apply to the source:
          - (LVK) Video Stabilizer
+         - Move Action (Name: Camera 1 Enable)
+             - Action: Source Visibility
+             - Scene: Instant Replay
+             - Source: Camera 1 Replay Background
+             - Enable: Enable
+             - Start Trigger: Activate: When this filter becomes actively shown in the final mix
+         - Move Action (Name: Camera 2 Disable)
+             - Action: Source Visibility
+             - Scene: Instant Replay
+             - Source: Camera 2 Replay Background
+             - Enable: Disable
+             - Start Trigger: Activate: When this filter becomes actively shown in the final mix
  - NDI Announcer Microphone
      - Source Name: SOUT-T0104 (Announcer)
      - Behavoir: Always Play when not visible
@@ -68,6 +80,46 @@ the formatting is as follows the sources should be in the same order as listed.
              - Method: RNoise or Nvidian Noise Removal (must install nvidia audio effects sdk first to use Nvidia Noise Removal)
         - 3 Band Equalizer
             - Fiddle with these settings until the audio sounds really good, use the best audio monitoring solution when tuning the EQ
+        - Compressor
+            - Ratio: 4:1
+            - Threshold: -17.5db
+            - Attack: 3ms
+            - Release: 200ms
+            - Output Gain: adjust so the talking volume is almost clipping.
+        - Limiter
+            - Threshold: -2.5db
+            - Release: 60ms
+  - NDI Mixer
+     - Source Name: SOUT-T0104 (Mixer)
+     - Behavoir: Always Play when not visible
+     - Bandwith: Audio Only
+     - Audio/Video Sync: network
+     - Framesync: Enabled
+     - Request Hardware Acceleration: Enabled
+     - Latency Mode: Normal Safe
+     - Filters to apply to the source:
+         - Gain
+             - Gain: 12db or what brings the audio to just about to clip
+        - Compressor
+            - Ratio: 4:1
+            - Threshold: -17.5db
+            - Attack: 3ms
+            - Release: 200ms
+            - Output Gain: adjust so the talking volume is almost clipping.
+        - Limiter
+            - Threshold: -2.5db
+            - Release: 60ms
+  - NDI Ambient Audio
+     - Source Name: SOUT-T0104 (Ambient)
+     - Behavoir: Always Play when not visible
+     - Bandwith: Audio Only
+     - Audio/Video Sync: network
+     - Framesync: Enabled
+     - Request Hardware Acceleration: Enabled
+     - Latency Mode: Normal Safe
+     - Filters to apply to the source:
+         - Gain
+             - Gain: 12db or what brings the audio to just about to clip
         - Compressor
             - Ratio: 4:1
             - Threshold: -17.5db
@@ -88,6 +140,18 @@ the formatting is as follows the sources should be in the same order as listed.
      - Latency Mode: Normal Safe
      - Filters to apply to the source:
          - (LVK) Video Stabilizer
+         - Move Action (Name: Camera 2 Enable)
+             - Action: Source Visibility
+             - Scene: Instant Replay
+             - Source: Camera 2 Replay Background
+             - Enable: Enable
+             - Start Trigger: Activate: When this filter becomes actively shown in the final mix
+         - Move Action (Name: Camera 1 Disable)
+             - Action: Source Visibility
+             - Scene: Instant Replay
+             - Source: Camera 1 Replay Background
+             - Enable: Disable
+             - Start Trigger: Activate: When this filter becomes actively shown in the final mix
  - NDI Announcer Microphone
      - Source Name: SOUT-T0104 (Announcer)
      - Behavoir: Always Play when not visible
@@ -115,5 +179,44 @@ the formatting is as follows the sources should be in the same order as listed.
         - Limiter
             - Threshold: -2.5db
             - Release: 60ms
-<img width="784" height="342" alt="Screenshot 2025-09-23 at 09 47 54" src="https://github.com/user-attachments/assets/89a02ea6-a75b-48c2-97c2-e0e0cee17cc4" />
-
+  - NDI Mixer
+     - Source Name: SOUT-T0104 (Mixer)
+     - Behavoir: Always Play when not visible
+     - Bandwith: Audio Only
+     - Audio/Video Sync: network
+     - Framesync: Enabled
+     - Request Hardware Acceleration: Enabled
+     - Latency Mode: Normal Safe
+     - Filters to apply to the source:
+         - Gain
+             - Gain: 12db or what brings the audio to just about to clip
+        - Compressor
+            - Ratio: 4:1
+            - Threshold: -17.5db
+            - Attack: 3ms
+            - Release: 200ms
+            - Output Gain: adjust so the talking volume is almost clipping.
+        - Limiter
+            - Threshold: -2.5db
+            - Release: 60ms
+  - NDI Ambient Audio
+     - Source Name: SOUT-T0104 (Ambient)
+     - Behavoir: Always Play when not visible
+     - Bandwith: Audio Only
+     - Audio/Video Sync: network
+     - Framesync: Enabled
+     - Request Hardware Acceleration: Enabled
+     - Latency Mode: Normal Safe
+     - Filters to apply to the source:
+         - Gain
+             - Gain: 12db or what brings the audio to just about to clip
+        - Compressor
+            - Ratio: 4:1
+            - Threshold: -17.5db
+            - Attack: 3ms
+            - Release: 200ms
+            - Output Gain: adjust so the talking volume is almost clipping.
+        - Limiter
+            - Threshold: -2.5db
+            - Release: 60ms
+### Instant Replay
