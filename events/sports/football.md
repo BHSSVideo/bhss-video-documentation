@@ -8,6 +8,7 @@
     - Metal Zip Ties
     - Vibration Dampening
         - rubber pads??
+    - Level
 - Ladder
 ## In the Press Box
 ### Announcer Area
